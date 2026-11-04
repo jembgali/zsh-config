@@ -22,6 +22,9 @@ elif command -v batcat >/dev/null 2>&1; then
     export MANPAGER="batcat -l man -p"
 fi
 
+# ----- Starship -----
+export STARSHIP_CONFIG="$ZDOTDIR/starship.toml"
+
 # ----- PATH -----
 #Personal binaries/scripts
 export PATH="$HOME/.local/bin:$PATH"

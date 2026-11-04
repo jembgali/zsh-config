@@ -47,3 +47,4 @@ alias protdis='protonvpn disconnect'
 
 # Fedora-specific
 alias dnfcu='dnf check-update'
+alias dnflin='dnf ls installed'
