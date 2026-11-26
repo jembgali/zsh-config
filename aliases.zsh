@@ -41,6 +41,9 @@ alias lg='lazygit'
 alias glog='PAGER="less -F -X" git log'
 alias gadog='PAGER="less -F -X" git log --all --decorate --oneline --graph'
 
+# tmux
+alias txksr='tmux kill-server'
+
 # VPN
 alias protcon='protonvpn connect'
 alias protdis='protonvpn disconnect'

@@ -30,11 +30,12 @@ format = "[$path ]($style)"
 home_symbol = " "
 
 [directory.substitutions]
+"Backup" = "󰁯 "
+"Development" = "󰲋 "
 "Documents" = "󰈙 "
 "Downloads" = " "
 "Music" = "󰝚 "
 "Pictures" = " "
-"Development" = "󰲋 "
 "Videos" = " "
 ".config" = " "
 ".local" = " "
